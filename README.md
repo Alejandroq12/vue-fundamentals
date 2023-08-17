@@ -1,3 +1,4 @@
+# Note: This readme will be updated soon!
 # vue-fundamentals
 
 ## Project setup
