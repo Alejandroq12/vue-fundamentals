@@ -1,13 +1,15 @@
 <template>
   <h2>Counter</h2>
-  <p>P</p>
+  <p>{{ counter }}</p>
 </template>
 
 <script>
 export default {
   name: 'CounterComponent',
   data() {
-    return {};
+    return {
+        counter: 5
+    };
   },
 };
 </script>
