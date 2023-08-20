@@ -1,10 +1,16 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
+  <CounterComponent />
 </template>
 
 <script>
+import CounterComponent from './components/CounterComponent.vue';
+
 export default {
   name: 'App',
+  components: {
+    CounterComponent
+  }
 };
 </script>
 
