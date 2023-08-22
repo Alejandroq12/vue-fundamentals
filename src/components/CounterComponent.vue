@@ -29,4 +29,11 @@ export default {
 };
 </script>
 
-<style></style>
+<style scope>
+button {
+  background-color: #64bb87;
+  border-radius: 5px;
+  margin: 0 5px;
+  color: white;
+}
+</style>
