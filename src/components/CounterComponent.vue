@@ -43,6 +43,7 @@ button {
 }
 
 button:hover {
-  background-color: #4a9e6e;
+  background-color: #316f4b;
+  transition: 03s ease-in-out;
 }
 </style>
