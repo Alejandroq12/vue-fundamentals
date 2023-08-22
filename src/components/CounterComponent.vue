@@ -3,7 +3,7 @@
   <p>{{ counter }}<sup>2</sup>= {{ squareCounter }}</p>
 
   <div>
-    <button>+1</button>
+    <button v-on:click="increase">+1</button>
     <button>-1</button>
   </div>
 </template>
@@ -20,6 +20,9 @@ export default {
     getSquareValue() {
       return this.counter * this.counter;
     },
+    increase(){
+      this.counter++;
+    }
   },
   computed: {
     squareCounter() {
