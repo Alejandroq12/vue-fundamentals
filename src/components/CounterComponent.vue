@@ -1,6 +1,11 @@
 <template>
   <h2>Counter</h2>
   <p>{{ counter }}<sup>2</sup>= {{ squareCounter }}</p>
+
+  <div>
+    <button>+1</button>
+    <button>-1</button>
+  </div>
 </template>
 
 <script>
