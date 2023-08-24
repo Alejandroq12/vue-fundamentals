@@ -4,7 +4,7 @@
 
   <div>
     <button v-on:click="increase">+1</button>
-    <button>-1</button>
+    <button v-on:click="decrease">-1</button>
   </div>
 </template>
 
