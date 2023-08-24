@@ -1,7 +1,7 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png" />
   <CounterComponent title="Entraron"/>
-  <CounterComponent />
+  <CounterComponent title="Salieron"/>
 </template>
 
 <script>
