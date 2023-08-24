@@ -23,6 +23,9 @@ export default {
     increase() {
       this.counter++;
     },
+    decrease() {
+      this.counter--;
+    },
   },
   computed: {
     squareCounter() {
