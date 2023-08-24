@@ -10,6 +10,7 @@
 
 <script>
 export default {
+  props: ['title'],
   name: 'CounterComponent',
   data() {
     return {
