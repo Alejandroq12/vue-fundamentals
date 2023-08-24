@@ -20,9 +20,9 @@ export default {
     getSquareValue() {
       return this.counter * this.counter;
     },
-    increase(){
+    increase() {
       this.counter++;
-    }
+    },
   },
   computed: {
     squareCounter() {
