@@ -1,5 +1,5 @@
 # Note: This readme will be updated very soon!
-# Counter
+# Counter V1.0
 
 ## Project setup
 ```
