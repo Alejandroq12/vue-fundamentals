@@ -1,5 +1,5 @@
 # Note: This readme will be updated very soon!
-# vue-fundamentals
+# Counter
 
 ## Project setup
 ```
