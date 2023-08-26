@@ -1,5 +1,5 @@
 <template>
-  <h2>{{ title }}</h2>
+  <h2>{{ customTitle }}</h2>
   <p>{{ counter }}<sup>2</sup>= {{ squareCounter }}</p>
 
   <div>
@@ -31,6 +31,9 @@ export default {
   computed: {
     squareCounter() {
       return this.counter * this.counter;
+    },
+    customTitle() {
+      return this.title || 'Counter';
     },
   },
 };
