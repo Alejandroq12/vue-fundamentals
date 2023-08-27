@@ -1,7 +1,6 @@
 <template>
   <IndecisionComponent />
-  <CounterComponent title="Entraron" />
-  <CounterComponent title="Salieron" />
+  <CounterComponent />
 </template>
 
 <script>
