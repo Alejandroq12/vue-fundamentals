@@ -1,4 +1,5 @@
 <template>
+  
   <h2>{{ title }}</h2>
   <p>{{ counter }}<sup>2</sup>= {{ squareCounter }}</p>
 

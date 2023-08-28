@@ -1,16 +1,19 @@
 <template>
-  <CounterComponent title="Entraron"/>
-  <CounterComponent title="Salieron"/>
+  <IndecisionComponent />
+  <CounterComponent title="Entraron" />
+  <CounterComponent title="Salieron" />
 </template>
 
 <script>
 import CounterComponent from './components/CounterComponent.vue';
+import IndecisionComponent from './components/IndecisionComponent.vue';
 
 export default {
   name: 'App',
   components: {
-    CounterComponent
-  }
+    CounterComponent,
+    IndecisionComponent,
+  },
 };
 </script>
 
