@@ -3,6 +3,8 @@
   <img src="https://via.placeholder.com/250" alt="background" />
   <div class="bg-dark"></div>
   <div class="indecision-container"></div>
+  <input type="text" placeholder="Hazme una pregunta" />
+  <p>Recuerda terminar con un signo de interrogacion (?)</p>
 </template>
 
 <script>
