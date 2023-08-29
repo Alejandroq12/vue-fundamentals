@@ -2,6 +2,7 @@
   <h1>Indecision</h1>
   <img src="https://via.placeholder.com/250" alt="background" />
   <div class="bg-dark"></div>
+  <div class="indecision-container"></div>
 </template>
 
 <script>
