@@ -5,6 +5,10 @@
   <div class="indecision-container"></div>
   <input type="text" placeholder="Hazme una pregunta" />
   <p>Recuerda terminar con un signo de interrogacion (?)</p>
+
+  <div>
+    <h2>Seré millonario?</h2>
+  </div>
 </template>
 
 <script>
