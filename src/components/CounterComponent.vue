@@ -12,7 +12,10 @@
 export default {
   props: {
     title: String,
-    start: Number,
+    start: {
+      type: Number,
+      default: 1,
+    }
   },
   name: 'CounterComponent',
   data() {
