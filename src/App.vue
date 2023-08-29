@@ -1,6 +1,6 @@
 <template>
   <IndecisionComponent />
-  <CounterComponent />
+  <CounterComponent start="15"/>
 </template>
 
 <script>
