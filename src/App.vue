@@ -1,16 +1,13 @@
 <template>
   <IndecisionComponent />
-  <CounterComponent />
 </template>
 
 <script>
-import CounterComponent from './components/CounterComponent.vue';
 import IndecisionComponent from './components/IndecisionComponent.vue';
 
 export default {
   name: 'App',
   components: {
-    CounterComponent,
     IndecisionComponent,
   },
 };
