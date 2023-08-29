@@ -14,7 +14,7 @@ export default {
   name: 'CounterComponent',
   data() {
     return {
-      counter: 5,
+      counter: this.start,
     };
   },
   methods: {
