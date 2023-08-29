@@ -10,7 +10,10 @@
 
 <script>
 export default {
-  props: ['title', 'start'],
+  props: {
+    title: String,
+    start: Number,
+  },
   name: 'CounterComponent',
   data() {
     return {
