@@ -2,17 +2,21 @@
   <img src="https://via.placeholder.com/250" alt="bg">
   <div class="bg-dark"></div>  
   <div class="indecision-container">
-      <input type="text" placeholder="Hazme una pregunta">
+      <input type="text" placeholder="Hazme una pregunta" v-model="question">
       <p>Recuerda terminar con un signo de interrogacion (?)</p>
       <div>
-          <h2>Sere millonario?</h2>
+          <h2 :question="question">{{ question }}</h2>
           <h1>Si, No, .... pensando</h1>
       </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  data: () => ({
+    question: '',
+  })
+};
 </script>
 
 <style scoped>
