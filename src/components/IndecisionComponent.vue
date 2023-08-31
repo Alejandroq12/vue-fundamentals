@@ -8,6 +8,7 @@
 
   <div>
     <h2>Seré millonario?</h2>
+    <h1>Si, No, ... pensando</h1>
   </div>
 </template>
 
