@@ -14,7 +14,7 @@
 <script>
 export default {
   data: () => ({
-    question: '',
+    question: 'Hola mundo',
   }),
 };
 </script>
