@@ -19,6 +19,8 @@ export default {
   watch: {
     question(value) {
       if (!value.includes('?')) return;
+
+      // TODO: Realizar peticion http
     },
   },
 };
