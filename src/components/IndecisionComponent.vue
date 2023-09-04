@@ -16,6 +16,9 @@ export default {
   data: () => ({
     question: 'Hola mundo',
   }),
+  watch: {
+    
+  }
 };
 </script>
 
