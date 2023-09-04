@@ -17,8 +17,10 @@ export default {
     question: 'Hola mundo',
   }),
   watch: {
-    
-  }
+    question(value, oldValue) {
+      console.log({ value, oldValue });
+    },
+  },
 };
 </script>
 
