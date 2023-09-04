@@ -14,7 +14,7 @@
 <script>
 export default {
   data: () => ({
-    question: 'Hola mundo',
+    question: null,
   }),
   watch: {
     question(value) {
