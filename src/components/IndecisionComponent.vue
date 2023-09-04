@@ -18,7 +18,7 @@ export default {
   }),
   watch: {
     question(value) {
-      console.log(value.includes('?'));
+      if (!value.includes('?')) return;
     },
   },
 };
