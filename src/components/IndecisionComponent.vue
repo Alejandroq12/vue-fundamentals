@@ -17,7 +17,9 @@ export default {
     question: null,
   }),
   methods: {
-
+    async getAnswer() {
+      
+    }
   },
   watch: {
     question(value) {
