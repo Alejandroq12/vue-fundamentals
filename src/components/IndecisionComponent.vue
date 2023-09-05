@@ -16,6 +16,9 @@ export default {
   data: () => ({
     question: null,
   }),
+  methods: {
+
+  },
   watch: {
     question(value) {
       if (!value.includes('?')) return;
