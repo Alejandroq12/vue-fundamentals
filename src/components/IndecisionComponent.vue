@@ -15,10 +15,11 @@
 export default {
   data: () => ({
     question: null,
+    answer: null,
   }),
   methods: {
     async getAnswer() {
-      
+
     }
   },
   watch: {
