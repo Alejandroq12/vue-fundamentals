@@ -18,9 +18,7 @@ export default {
     answer: null,
   }),
   methods: {
-    async getAnswer() {
-
-    }
+    async getAnswer() {},
   },
   watch: {
     question(value) {
