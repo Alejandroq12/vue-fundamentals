@@ -19,7 +19,7 @@ export default {
   }),
   methods: {
     async getAnswer() {
-
+      this.answer = 'Pensando...';
     },
   },
   watch: {
