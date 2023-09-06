@@ -6,7 +6,7 @@
     <p>Recuerda terminar con un signo de interrogacion (?)</p>
     <div>
       <h2 :question="question">{{ question }}</h2>
-      <h1>Si, No, .... pensando</h1>
+      <h1>{{ answer }}</h1>
     </div>
   </div>
 </template>
@@ -18,7 +18,9 @@ export default {
     answer: null,
   }),
   methods: {
-    async getAnswer() {},
+    async getAnswer() {
+
+    },
   },
   watch: {
     question(value) {
