@@ -17,6 +17,7 @@ export default {
     question: null,
     answer: null,
     img: null,
+    isValidQuestion: false,
   }),
   methods: {
     async getAnswer() {
