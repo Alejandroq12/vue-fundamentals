@@ -20,8 +20,8 @@ export default {
   methods: {
     async getAnswer() {
       this.answer = 'Pensando...';
-      const data = await fetch('https://yesno.wtf/api').then((r) => r.json());
-      console.log(data);
+      const { answer, image } = await fetch('https://yesno.wtf/api').then((r) => r.json());
+      this.answer = answer;
     },
   },
   watch: {
