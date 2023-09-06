@@ -20,6 +20,8 @@ export default {
   methods: {
     async getAnswer() {
       this.answer = 'Pensando...';
+      const data = await fetch('https://yesno.wtf/api').then((r) => r.json());
+      console.log(data);
     },
   },
   watch: {
@@ -27,6 +29,7 @@ export default {
       if (!value.includes('?')) return;
 
       // TODO: Realizar peticion http
+      this.getAnswer();
     },
   },
 };
