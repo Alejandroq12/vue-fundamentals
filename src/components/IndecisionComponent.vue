@@ -31,6 +31,7 @@ export default {
   },
   watch: {
     question(value) {
+      this.isValidQuestion = false;
       if (!value.includes('?')) return;
 
       // TODO: Realizar peticion http
