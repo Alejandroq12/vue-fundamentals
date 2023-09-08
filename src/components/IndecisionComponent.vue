@@ -33,6 +33,7 @@ export default {
     question(value) {
       this.isValidQuestion = false;
       if (!value.includes('?')) return;
+      this.isValidQuestion = true;
 
       // TODO: Realizar peticion http
       this.getAnswer();
