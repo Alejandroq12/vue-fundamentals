@@ -4,7 +4,7 @@
   <div class="indecision-container">
     <input type="text" placeholder="Hazme una pregunta" v-model="question" />
     <p>Recuerda terminar con un signo de interrogacion (?)</p>
-    <div>
+    <div v-if="isValidQuestion">
       <h2 :question="question">{{ question }}</h2>
       <h1>{{ answer }}</h1>
     </div>
@@ -25,7 +25,8 @@ export default {
       const { answer, image } = await fetch('https://yesno.wtf/api').then((r) =>
         r.json()
       );
-      this.answer = answer;
+      this.answer =
+        answer === 'yes' ? 'Si' : answer === 'no' ? 'No' : 'Tal vez';
       this.img = image;
     },
   },
