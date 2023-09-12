@@ -8,6 +8,6 @@ describe('Example component', () => {
     value = value + 2;
 
     // Assert
-    
+    expect( value ).toBeGreaterThan( 10 )
   });
 });
