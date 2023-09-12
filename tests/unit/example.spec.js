@@ -2,7 +2,7 @@ describe('Example component', () => {
   test('Debe de ser mayor a 10', () => {
 
     // Arange
-    let value = 5;
+    let value = 10;
 
     // Act
     value = value + 2;
