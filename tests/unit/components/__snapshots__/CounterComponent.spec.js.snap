@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter Component debe de hacer match con el snapshot 1`] = `
+<h2>Counter</h2>
+<p>100 <sup>2</sup> = 10000</p>
+<div><button>+1</button><button>-1</button></div>
+`;
