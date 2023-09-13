@@ -9,6 +9,6 @@ describe('Counter Component', () => {
     test('h2 debe de tener el valor por defecto.', () => {
         const wrapper = shallowMount(CounterComponent)
         const h2 = wrapper.find('h2')
-        console.log(h2.text())
+        expect( h2.text() ).toBe('Counter')
     })
 })
