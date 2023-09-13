@@ -2,7 +2,7 @@
     <h2>{{ customTitle }} </h2>
     <p> {{ counter }} <sup>2</sup> = {{ squareCounter }} </p>
 
-    <div>
+    <div class="button-container">
         <button @click="increase">+1</button>
         <button @click="decrease">-1</button>
     </div>
