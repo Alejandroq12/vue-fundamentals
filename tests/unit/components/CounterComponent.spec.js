@@ -12,4 +12,10 @@ describe('Counter Component', () => {
         const h2Value = wrapper.find('h2').text()
         expect( h2Value ).toBe('Counter')
     })
+
+    test('Default value must be 100', () => {
+        const wrapper = shallowMount(CounterComponent)
+        const pTags = wrapper.findAll('p')
+        expect( pTags[1].text() ).toBe('100')
+    })
 })
