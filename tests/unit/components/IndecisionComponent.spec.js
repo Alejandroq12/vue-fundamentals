@@ -19,7 +19,7 @@ describe('IndecisionComponent', () => {
 
   })
 
-  test('getAsnwer tests', () => {
+  test('getAnswer tests', () => {
 
   })
 
