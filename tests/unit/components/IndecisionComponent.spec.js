@@ -18,4 +18,8 @@ describe('IndecisionComponent', () => {
   test('Question mark "?" must dispatch fecth', () => {
 
   })
+
+  test('getAsnwer tests', () => {
+    
+  })
 });
