@@ -19,6 +19,11 @@ describe('Counter Component', () => {
     expect(value).toBe('100');
   });
 
-  test('It must be increased by one the value of the counter', () => {
+  test('It must be increased by one the value of the counter', async () => {
+    const wrapper = shallowMount( CounterComponent );
+    const increaseBtn = wrapper.find('button');
+    await increaseBtn.trigger('click');
+    const value = wrapper.find('[data-testid="counter"]').text()
+    expect( value ).toBe('101');
   })
 });
