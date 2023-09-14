@@ -12,7 +12,8 @@ describe('IndecisionComponent', () => {
   });
 
   test('Should not dispactch when typing on input console.log()', () => {
-
+    const input = wrapper.find('input');
+    
   });
 
   test('Question mark "?" must dispatch fecth', () => {
