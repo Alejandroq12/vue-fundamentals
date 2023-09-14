@@ -6,8 +6,7 @@ describe('Counter Component', () => {
 
   beforeEach(() => {
     wrapper = shallowMount(CounterComponent);
-
-  })
+  });
   // test('debe de hacer match con el snapshot', () => {
   //     expect(wrapper.html()).toMatchSnapshot()
   // })
@@ -21,7 +20,7 @@ describe('Counter Component', () => {
     const value = wrapper.find('[data-testid="counter"]').text();
     expect(value).toBe('100');
 
-    const [increaseBtn, decreaseBtn ] = wrapper.findAll('button');
+    const [increaseBtn, decreaseBtn] = wrapper.findAll('button');
     await increaseBtn.trigger('click');
   });
 
@@ -39,6 +38,8 @@ describe('Counter Component', () => {
   });
 
   test('It must test the default value', () => {
-    
-  })
+    const { start } = wrapper.props();
+    const value = wrapper.find('[data-testid="counter"]').text();
+    expect( Number(value) ).toBe( start )
+  });
 });
