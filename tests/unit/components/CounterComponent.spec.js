@@ -42,4 +42,8 @@ describe('Counter Component', () => {
     const value = wrapper.find('[data-testid="counter"]').text();
     expect( Number(value) ).toBe( start )
   });
+
+  test('Debe de mostrar la property title', () => {
+    
+  })
 });
