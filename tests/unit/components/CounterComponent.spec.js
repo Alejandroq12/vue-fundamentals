@@ -9,7 +9,6 @@ describe('Counter Component', () => {
 
   })
   // test('debe de hacer match con el snapshot', () => {
-  //     const wrapper = shallowMount(CounterComponent)
   //     expect(wrapper.html()).toMatchSnapshot()
   // })
   test('h2 debe de tener el valor por defecto.', () => {
