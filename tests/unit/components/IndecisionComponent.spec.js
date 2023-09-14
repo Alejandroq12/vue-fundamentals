@@ -10,4 +10,6 @@ describe('IndecisionComponent', () => {
   test('Debe de hacer match con el snapshot', () => {
     expect(wrapper.html()).toMatchSnapshot();
   });
+
+  test('Should not dispactch when typing on input console.log()', () => {});
 });
