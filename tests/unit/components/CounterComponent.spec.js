@@ -7,9 +7,9 @@ describe('Counter Component', () => {
   beforeEach(() => {
     wrapper = shallowMount(CounterComponent);
   });
-  // test('debe de hacer match con el snapshot', () => {
-  //     expect(wrapper.html()).toMatchSnapshot()
-  // })
+  test('debe de hacer match con el snapshot', () => {
+    expect(wrapper.html()).toMatchSnapshot();
+  });
   test('h2 debe de tener el valor por defecto.', () => {
     expect(wrapper.find('h2').exists()).toBeTruthy();
     const h2Value = wrapper.find('h2').text();
