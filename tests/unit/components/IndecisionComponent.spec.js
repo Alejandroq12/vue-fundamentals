@@ -14,7 +14,7 @@ describe('IndecisionComponent', () => {
     expect(wrapper.html()).toMatchSnapshot();
   });
 
-  test('Should not dispactch when typing on input console.log()', async () => {
+  test('Should not dispatch when typing on input console.log()', async () => {
     const getAnswerSpy = jest.spyOn(wrapper.vm, 'getAnswer')
     const input = wrapper.find('input');
     await input.setValue('Hola mundo');
