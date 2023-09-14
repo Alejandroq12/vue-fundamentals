@@ -18,4 +18,7 @@ describe('Counter Component', () => {
     const value = wrapper.find('[data-testid="counter"]').text();
     expect(value).toBe('100');
   });
+
+  test('It must be increased by one the value of the counter', () => {
+  })
 });
