@@ -3,17 +3,22 @@ import IndecisionComponent from '../../../src/components/IndecisionComponent.vue
 
 describe('IndecisionComponent', () => {
   let wrapper;
+  let clgSpy;
 
   beforeEach(() => {
     wrapper = shallowMount(IndecisionComponent);
+
+    clgSpy = jest.spyOn (console, 'log');
   });
   test('Debe de hacer match con el snapshot', () => {
     expect(wrapper.html()).toMatchSnapshot();
   });
 
-  test('Should not dispactch when typing on input console.log()', () => {
+  test('Should not dispactch when typing on input console.log()', async () => {
     const input = wrapper.find('input');
-    
+    await input.setValue('Hola mundo');
+
+
   });
 
   test('Question mark "?" must dispatch fecth', () => {
