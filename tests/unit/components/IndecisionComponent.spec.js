@@ -15,10 +15,12 @@ describe('IndecisionComponent', () => {
   });
 
   test('Should not dispactch when typing on input console.log()', async () => {
+    const getAnswerSpy = jest.spyOn(wrapper.vm, 'getAnswer')
     const input = wrapper.find('input');
     await input.setValue('Hola mundo');
 
     expect(clgSpy).toHaveBeenCalledTimes(1);
+    expect(getAnswerSpy).not.toHaveBeenCalled();
 
   });
 
