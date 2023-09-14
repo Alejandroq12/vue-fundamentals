@@ -20,16 +20,16 @@ describe('Counter Component', () => {
   });
 
   test('It must be increase and decrease the value of the counter', async () => {
-    const wrapper = shallowMount( CounterComponent );
-    const increaseBtn = wrapper.find('button');
-    await increaseBtn.trigger('click');
-    await increaseBtn.trigger('click');
-    await increaseBtn.trigger('click');
+    const wrapper = shallowMount(CounterComponent);
+    const [increaseBtn, decreaseBtn] = wrapper.findAll('button');
 
-    const decreaseBtn = wrapper.findAll('button')[1];
+    await increaseBtn.trigger('click');
+    await increaseBtn.trigger('click');
+    await increaseBtn.trigger('click');
     await decreaseBtn.trigger('click');
     await decreaseBtn.trigger('click');
-    let value = wrapper.find('[data-testid="counter"]').text()
-    expect( value ).toBe('101');
-  })
+
+    let value = wrapper.find('[data-testid="counter"]').text();
+    expect(value).toBe('101');
+  });
 });
