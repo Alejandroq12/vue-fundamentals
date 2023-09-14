@@ -15,7 +15,7 @@ describe('Counter Component', () => {
 
   test('Default value must be 100', () => {
     const wrapper = shallowMount(CounterComponent);
-    const pTags = wrapper.findAll('p');
-    expect(pTags[1].text()).toBe('100');
+    const value = wrapper.find('[data-testid="counter"]').text();
+    expect(value).toBe('100');
   });
 });
