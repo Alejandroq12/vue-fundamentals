@@ -11,5 +11,11 @@ describe('IndecisionComponent', () => {
     expect(wrapper.html()).toMatchSnapshot();
   });
 
-  test('Should not dispactch when typing on input console.log()', () => {});
+  test('Should not dispactch when typing on input console.log()', () => {
+
+  });
+
+  test('Question mark "?" must dispatch fecth', () => {
+
+  })
 });
