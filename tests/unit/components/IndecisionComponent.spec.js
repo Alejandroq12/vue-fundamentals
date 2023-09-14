@@ -24,7 +24,7 @@ describe('IndecisionComponent', () => {
 
   });
 
-  test('Question mark "?" must dispatch fetch', () => {
+  test('Question mark "?" must dispatch getAnswer', () => {
 
   })
 
