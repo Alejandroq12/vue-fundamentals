@@ -40,10 +40,16 @@ describe('Counter Component', () => {
   test('It must test the default value', () => {
     const { start } = wrapper.props();
     const value = wrapper.find('[data-testid="counter"]').text();
-    expect( Number(value) ).toBe( start )
+    expect(Number(value)).toBe(start);
   });
 
   test('Debe de mostrar la property title', () => {
-    
-  })
+    const title = 'Hola mundo';
+    const wrapper = shallowMount(CounterComponent, {
+      props: {
+        title,
+      },
+    });
+    expect(wrapper.find('h2').text()).toBe(title);
+  });
 });
