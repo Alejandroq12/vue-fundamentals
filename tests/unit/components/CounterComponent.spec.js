@@ -37,4 +37,8 @@ describe('Counter Component', () => {
     let value = wrapper.find('[data-testid="counter"]').text();
     expect(value).toBe('101');
   });
+
+  test('It must test the default value', () => {
+    
+  })
 });
