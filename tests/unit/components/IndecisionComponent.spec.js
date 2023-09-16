@@ -5,6 +5,8 @@ describe('IndecisionComponent', () => {
   let wrapper;
   let clgSpy;
 
+  global.fetch = jest.fn();
+
   beforeEach(() => {
     wrapper = shallowMount(IndecisionComponent);
 
