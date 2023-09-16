@@ -44,8 +44,14 @@ describe('IndecisionComponent', () => {
 
   })
 
-  test('getAnswer tests', () => {
+  test('getAnswer tests', async () => {
+   await wrapper.vm.getAnswer()
 
+   const img = wrapper.find('img')
+
+   expect(img.exists()).toBeTruthy()
+   expect(wrapper.vm.img).toBe('https://yesno.wtf/assets/yes/2.gif')
+   expect(wrapper.vm.answer).toBe('Si!')
   })
 
   test('getAnswer test - API failure', () => {
