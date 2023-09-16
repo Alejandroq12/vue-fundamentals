@@ -9,6 +9,8 @@ describe('IndecisionComponent', () => {
     wrapper = shallowMount(IndecisionComponent);
 
     clgSpy = jest.spyOn(console, 'log');
+
+    jest.clearAllMocks();
   });
   test('Debe de hacer match con el snapshot', () => {
     expect(wrapper.html()).toMatchSnapshot();
@@ -29,6 +31,7 @@ describe('IndecisionComponent', () => {
     const input = wrapper.find('input');
     await input.setValue('?');
 
+    expect(clgSpy).toHaveBeenCalledTimes(1);
     expect(getAnswerSpy).toBeCalled();
 
   })
