@@ -24,7 +24,12 @@ describe('IndecisionComponent', () => {
 
   });
 
-  test('Question mark "?" must dispatch getAnswer', () => {
+  test('Question mark "?" must dispatch getAnswer', async () => {
+    const getAnswerSpy = jest.spyOn(wrapper.vm, 'getAnswer')
+    const input = wrapper.find('input');
+    await input.setValue('?');
+
+    expect(getAnswerSpy).toBeCalled();
 
   })
 
