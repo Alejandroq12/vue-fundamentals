@@ -51,7 +51,7 @@ describe('IndecisionComponent', () => {
 
    expect(img.exists()).toBeTruthy()
    expect(wrapper.vm.img).toBe('https://yesno.wtf/assets/yes/2.gif')
-   expect(wrapper.vm.answer).toBe('Si!')
+   expect(wrapper.vm.answer).toBe('Si')
   })
 
   test('getAnswer test - API failure', () => {
