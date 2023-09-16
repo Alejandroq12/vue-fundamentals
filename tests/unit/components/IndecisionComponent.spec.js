@@ -5,7 +5,13 @@ describe('IndecisionComponent', () => {
   let wrapper;
   let clgSpy;
 
-  global.fetch = jest.fn();
+  global.fetch = jest.fn( () => Promise.resolve({
+    json: () => Promise.resolve({
+      'answer': 'yes',
+      'forced': false,
+      'image': 'https://yesno.wtf/assets/yes/2.gif'
+    })
+  }));
 
   beforeEach(() => {
     wrapper = shallowMount(IndecisionComponent);
