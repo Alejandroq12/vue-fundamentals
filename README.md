@@ -1,15 +1,4 @@
 
-## Project setup
-```
-npm i
-or
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
 ### Compiles and minifies for production
 ```
@@ -150,6 +139,7 @@ To install all dependencies, run:
 
 ```
 npm install
+
 ```
 
 ### Usage
@@ -157,7 +147,7 @@ npm install
 To run the project, follow these instructions:
 
 - After Cloning this repo to your local machine.
-- You can also use `npm start` command in terminal to run this at the localhost.
+- You can also use `npm run serve` command in terminal to run this at the localhost.
 
 ### Run tests
 
