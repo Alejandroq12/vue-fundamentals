@@ -74,8 +74,7 @@ Vue.js.
 
 ### Key Features <a name="key-features"></a>
 
-- **Make simple calculations.**
-- **Read a random math-related quote.**
+- **Guess questions.**
 - **Fetch data from API.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
