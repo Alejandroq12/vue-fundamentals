@@ -195,7 +195,7 @@ If you like this project give me a star ⭐️
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I want to thank all my colleagues that share knowledge with and inspired to to improve each day.
+I want to thank Fernando Herrera for guiding me in the creation of this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
