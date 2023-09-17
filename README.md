@@ -1,20 +1,4 @@
-
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-# math-fans
+# vue-fundamentals
 
 <a name="readme-top"></a>
 
@@ -27,7 +11,7 @@ npm run lint
 <!-- TABLE OF CONTENTS -->
 # 📗 Table of Contents
 
-- [math-fans](#math-fans)
+- [vue-fundamentals](#vue-fundamentals)
 - [📗 Table of Contents](#-table-of-contents)
 - [📖Math Fans ](#math-fans-)
   - [🛠 Built With ](#-built-with-)
@@ -153,13 +137,12 @@ To run the project, follow these instructions:
 
 To run tests, run the following command:
 
-- Track CSS linter errors run:
 ```
-npx stylelint "**/*.{css,scss}"
+npm run test:unit
 ```
-- Track JavaScript linter errors run:
+
 ```
-npx eslint "**/*.{js,jsx}"
+npm run lint
 ```
 
 ### Deployment <a name="deployment"></a>
