@@ -54,8 +54,9 @@ describe('IndecisionComponent', () => {
    expect(wrapper.vm.answer).toBe('Si')
   })
 
-  test('getAnswer test - API failure', () => {
+  test('getAnswer test - API failure', async () => {
     fetch.mockImplementationOnce(() => Promise.reject('API is down!'))
+    await wrapper.vm.getAnswer()
     const img = wrapper.find('img')
     expect(img.exists()).toBeFalsy()
     expect(wrapper.vm.answer).toBe('No se pudo cargar el API')
