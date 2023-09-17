@@ -67,7 +67,6 @@ Vue.js.
   <summary>Linters</summary>
   <ul>
       <li><a href="https://eslint.org/">ESLint</a></li>
-      <li><a href="https://stylelint.io/">Stylelint</a></li>
   </ul>
 </details>
 
