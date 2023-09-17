@@ -1,19 +1,19 @@
-# vue-fundamentals
+# guessing game
 
 <a name="readme-top"></a>
 
 <div align="center">
     <img src="./public/logo.png" alt="logo" width="550"  height="auto" />
   <br/>
-  <h3><b>Math Fans</b></h3>
+  <h3><b>Guessing Game</b></h3>
 
 </div>
 <!-- TABLE OF CONTENTS -->
 # 📗 Table of Contents
 
-- [vue-fundamentals](#vue-fundamentals)
+- [guessing game](#guessing-game)
 - [📗 Table of Contents](#-table-of-contents)
-- [📖Math Fans ](#math-fans-)
+- [📖Guessing Game ](#guessing-game-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -35,7 +35,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖Math Fans <a name="about-project"></a>
+# 📖Guessing Game <a name="about-project"></a>
 
 "Math Fans" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:  Make simple calculations. Read a random math-related quote. By building this application, I will learn how to use React.
 
