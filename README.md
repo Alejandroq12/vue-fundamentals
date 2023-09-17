@@ -142,7 +142,7 @@ https://github.com/Alejandroq12/vue-fundamentals
 
 - Navigate to the location of the folder in your machine:
 
-**``you@your-Pc-name:~$ cd math-fans``**
+**``you@your-Pc-name:~$ cd vue-fundamentals``**
 
 ### Install
 
