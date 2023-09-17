@@ -113,8 +113,6 @@ Vue.js.
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link Netlify](https://warm-nasturtium-2364c6.netlify.app/)
-- 
-- [Live Demo Link Render](https://math-fans.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,7 +137,7 @@ In order to run this project you need:
 Clone this repository to your desired folder or download the Zip folder:
 
 ```
-https://github.com/Alejandroq12/math-fans.git
+https://github.com/Alejandroq12/vue-fundamentals
 ```
 
 - Navigate to the location of the folder in your machine:
