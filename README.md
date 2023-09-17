@@ -37,7 +37,7 @@
 
 # 📖Guessing Game <a name="about-project"></a>
 
-"Math Fans" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:  Make simple calculations. Read a random math-related quote. By building this application, I will learn how to use React.
+"Gessing Game" is a website in which you may type a question and you will get "yes", "no" or "maybe".
 
 ## 🛠 Built With <a name="built-with"></a>
 HTML,
