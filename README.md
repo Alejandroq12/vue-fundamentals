@@ -83,8 +83,7 @@ Vue.js.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-It will be available soon!
-- [Live Demo Link Netlify]()
+- [Live Demo Link Netlify](https://thunderous-zuccutto-2fcc61.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
