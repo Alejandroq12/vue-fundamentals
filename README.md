@@ -203,9 +203,9 @@ I want to thank Fernando Herrera for guiding me in the creation of this project.
 
 ## ❓ FAQ <a name="faq"></a>
 
-- **Did you created this project from zero?**
+- **Why did you code this project?**
 
-  - Of course, as if it were a real life job scenario.
+  - Because I want to master Vue.js.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
